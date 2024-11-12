@@ -1,0 +1,46 @@
+table {
+    margin: auto;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: center;
+}
+
+.recuo-esquerda {
+    padding-left: 20px;
+}
+
+.alinhamento-esquerda {
+    text-align: left;
+}
+
+.borda-sup-inf-dir {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.borda-sup {
+    border-top: 1px solid black;
+}
+
+.borda-inf {
+    border-bottom: 1px solid black;
+}
+
+.borda-dir {
+    border-right: 1px solid black;
+}
+
+.borda-esq {
+    border-left: 1px solid black;
+}
+
+.borda-todos-lados {
+    border: 1px solid black;
+}
+
+caption {
+    font-weight: bold;
+}
