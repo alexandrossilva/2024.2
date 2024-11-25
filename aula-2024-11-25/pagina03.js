@@ -17,7 +17,7 @@ function adicionarLua() {
 }
 
 let btnSol = document.getElementById("add-sol");
-let btnLua = document.getElementById("add-lua");
+let btnLua = document.getElementById("add-lua"); 
 
 btnSol.addEventListener("click", adicionarSol);
 btnLua.addEventListener("click", adicionarLua);
