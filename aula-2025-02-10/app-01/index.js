@@ -2,6 +2,8 @@ const express = require("express");
 
 let app = express();
 
+app.use(express.static("public"));
+
 app.get("/soma", (req, resp) => {
     let n1 = req.query["n1"];
     let n2 = req.query["n2"];
