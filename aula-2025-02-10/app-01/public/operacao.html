@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma</title>
+    <style>
+        input {
+            margin-top: 2px;
+            margin-bottom:2px;
+        }
+    </style>
+</head>
+<body>
+    <form action="operacao" method="get">
+        1º Número
+        <input type="text" name="n1">
+        <br>
+        2º Número
+        <input type="text" name="n2">
+        <br>
+        <fieldset>
+            <legend>Operação</legend>
+            <input type="radio" name="op" value="som">Soma
+            <br>
+            <input type="radio" name="op" value="subt">Subtração
+            <br>
+            <input type="radio" name="op" value="mult">Multiplicação
+            <br>
+            <input type="radio" name="op" value="div">Divisão
+            <br>
+        </fieldset>
+        <input type="submit" value="Executar Operação">    
+    </form>
+</body>
+</html>
